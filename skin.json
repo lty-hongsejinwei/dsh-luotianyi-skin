@@ -1,0 +1,25 @@
+{
+  "id": "luotianyi",
+  "name": "洛天依",
+  "nameEn": "Luo Tianyi",
+  "author": "dsh-luotianyi-skin",
+  "tagline": "洛天依蓝、星海肖像墙、侧栏立绘与专属 logo。",
+  "taglineEn": "Luo Tianyi blue, starry portrait wallpaper, a sidebar vocalist cutout and her own logo.",
+  "description": "把 DeepSeek Harness 变成洛天依主题：主界面换成星海肖像壁纸，侧栏放进正在唱歌的洛天依立绘，并把品牌 logo 换成洛天依 logo。",
+  "tags": [
+    "anime",
+    "vocaloid",
+    "luotianyi",
+    "blue",
+    "starry",
+    "glass"
+  ],
+  "accent": "#66ccff",
+  "bodyAttr": "data-dsh-luotianyi",
+  "package": "dsh-luotianyi-skin",
+  "wiring": {
+    "id": "ui-skin-luotianyi",
+    "bundleWired": false
+  },
+  "order": 5
+}

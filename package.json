@@ -1,0 +1,35 @@
+{
+  "name": "dsh-luotianyi-skin",
+  "description": "洛天依 (Luo Tianyi) theme skin for the DeepSeek Harness Web GUI — balloon-summer wallpaper, sidebar vocalist cutout and a 洛天依 brand mark in #66CCFF.",
+  "version": "0.1.2",
+  "type": "module",
+  "icon": "assets/plugin-icon.svg",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./icon": "./assets/plugin-icon.svg",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": ["@deepseek-ai/dsh-client-ui-layout"],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "assets/runtime",
+    "assets/plugin-icon.svg",
+    "locale/*.json"
+  ],
+  "license": "MIT"
+}
